@@ -15,20 +15,26 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/GaneshWiz07/PYTHON-BACKEND.git
-Navigate to the project directory:
-cd PYTHON-BACKEND/FLASK-APP
-Set up the virtual environment:
-python -m venv venv
-Activate the virtual environment:
-On Windows:
-venv\Scripts\activate
-On macOS/Linux:
-source venv/bin/activate
-Install the required packages:
-pip install -r requirements.txt
-Usage
-To run the Flask application, execute the following command:
+2. Navigate to the project directory:
+   ```bash
+   cd PYTHON-BACKEND/FLASK-APP
+3. Set up the virtual environment:
+   ```bash
+   python -m venv venv
+4. Activate the virtual environment:
+  *On Windows:
+   ```bash
+   venv\Scripts\activate
+  *On macOS/Linux:
+   ```bash
+   source venv/bin/activate
+5. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
 
+#Usage
+To run the Flask application, execute the following command:
+```bash
 python app.py
 Visit http://127.0.0.1:5000 in your web browser to access the application.
 
